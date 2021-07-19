@@ -1,0 +1,86 @@
+/*color de fondo y letra*/
+* {color: goldenrod;}
+h1:hover {color: firebrick;}
+
+/*tamaños de tipografia*/
+h4 {font-size: 50px;}
+.titulo {font-size: 80px;}
+h1 {font-size: 1em;}
+.primerparrafo {font-size: 20px;}
+.tamañoparraf1 {font-size: 1em;}
+.segundoparrafo {font-size: 18px;}
+.tamañoparraf2 {font-size: 1em;}
+.tamañoreseña {font-size: 16px;}
+.reseña1, .reseña2, .reseña3 {font-size: 1em;}
+.masinfo {font-size: 15px;}
+.textofinal {font-size: 1em;}
+.album {font-size: 14px;}
+ol {font-size: 1em;}
+h2 {font-size: 3em;}
+.imagen3 {
+    width: 500px;
+    height: 500px;
+}
+/*espacio entre bordes padding*/
+img {border-style: none;  
+    max-width: 100%;}
+* {box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;}
+img {display: inline;
+    padding: 15px 20px;}
+* {background-color: black;}
+body {padding-left: 20px;}
+div, ol, header {padding: 15px 20px;}
+
+/*posicionamientos*/
+.reseña1 {
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    left: 300px;
+}
+.reseña2 {
+    width: 300px;
+    height: 490;
+}
+
+.tamañoparraf1 {
+    width: 520px;
+    height: 250px;
+}
+.imagen1 {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 615px;
+    bottom: 230px;
+} 
+.tamañoparraf2 {width: 540px;
+    height: 200px;}
+
+.imagen2 {
+    width: 300px;
+    height: 350px;
+}
+.imagen4 {
+    width: 540px;
+    height: 350px;
+    position: absolute;
+    left: 360px;
+    margin-bottom: 1px;
+    
+}
+.envoltoriogrande {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+    
+}
+ol li {text-align: center;}
+
+.imagen3 {
+    position: relative;
+    left: 100px;
+}
+footer {text-align: center;}
