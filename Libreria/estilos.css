@@ -1,0 +1,33 @@
+body {background-color: gold;}
+
+.hijo__01, .hijo__02, .hijo__03,
+.hijo__04, .hijo__05, .hijo__06,
+.hijo__07, .hijo__08, .hijo__09 {
+    background-color: lightseagreen;
+    width: 200px;
+    height: 260px;
+    text-align: center;
+    margin: 30px;
+    padding: 3px 0px 0px 0px;
+    border: solid black;
+}
+.columna2 {
+    position: absolute;
+    left: 800px;
+    top: 220px;
+}
+.columna3 {
+    position: absolute;
+    right: 0px;
+    top: 220px;
+}
+p {
+    color: lightseagreen;
+    text-align: center;
+}
+header {
+    font-size: 40px;
+    text-align: center;
+    color: darkcyan;
+    font-family: cursive;
+}
